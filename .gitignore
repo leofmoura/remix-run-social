@@ -109,3 +109,7 @@ dist
 
 /prisma/dev.db
 .env
+
+/app/styles/app.css
+
+/api
