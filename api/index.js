@@ -56,7 +56,7 @@ function handleRequest(request, responseStatusCode, responseHeaders, remixContex
   });
 }
 
-// route:/Users/leonardo.moura/dev/remix-egg-head/remix-social/app/root.tsx
+// route:/Users/leonardo.moura/dev/remix-egg-head/remix-run-social/app/root.tsx
 var root_exports = {};
 __export(root_exports, {
   default: () => App,
@@ -74,7 +74,7 @@ function App() {
   }, /* @__PURE__ */ React.createElement("head", null, /* @__PURE__ */ React.createElement(import_react2.Meta, null), /* @__PURE__ */ React.createElement(import_react2.Links, null)), /* @__PURE__ */ React.createElement("body", null, /* @__PURE__ */ React.createElement(import_react2.Outlet, null), /* @__PURE__ */ React.createElement(import_react2.ScrollRestoration, null), /* @__PURE__ */ React.createElement(import_react2.Scripts, null), /* @__PURE__ */ React.createElement(import_react2.LiveReload, null)));
 }
 
-// route:/Users/leonardo.moura/dev/remix-egg-head/remix-social/app/routes/index.tsx
+// route:/Users/leonardo.moura/dev/remix-egg-head/remix-run-social/app/routes/index.tsx
 var routes_exports = {};
 __export(routes_exports, {
   default: () => Index,
@@ -100,7 +100,7 @@ var getPosts = () => {
   return db.post.findMany();
 };
 
-// route:/Users/leonardo.moura/dev/remix-egg-head/remix-social/app/routes/index.tsx
+// route:/Users/leonardo.moura/dev/remix-egg-head/remix-run-social/app/routes/index.tsx
 var loader = async () => {
   const data = { posts: await getPosts() };
   return (0, import_node.json)(data);
@@ -116,7 +116,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { "version": "0be0407d", "entry": { "module": "/build/entry.client-IYTXVLZI.js", "imports": ["/build/_shared/chunk-PMFS5PFU.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-OVQKRKSN.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-Z6EGV2BZ.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-0BE0407D.js" };
+var assets_manifest_default = { "version": "c0042551", "entry": { "module": "/build/entry.client-44YPS7NW.js", "imports": ["/build/_shared/chunk-JEKDVCBL.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-PK3VWZFV.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-SSA3RPZA.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-C0042551.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var entry = { module: entry_server_exports };
